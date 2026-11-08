@@ -1,0 +1,6 @@
+{
+  "name": "khmedia",
+  "description": "Independent AI & SaaS Software Review Publisher for Freelancers and Small Businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

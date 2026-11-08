@@ -1,0 +1,10 @@
+# robots.txt for https://azmediabot.online/
+User-agent: *
+Allow: /
+
+# Prevent indexing of search query params or test paths if any
+Disallow: /*?s=*
+Disallow: /*?preview=*
+
+# Sitemap
+Sitemap: https://azmediabot.online/sitemap.xml

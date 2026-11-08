@@ -1,0 +1,12 @@
+# Canonical domain enforcement: Redirect www to apex domain
+https://www.azmediabot.online/* https://azmediabot.online/:splat 301!
+
+# Legacy domain and old paths cleanup
+https://khmedia.netlify.app/* https://azmediabot.online/:splat 301!
+https://toolfastai.netlify.app/* https://azmediabot.online/:splat 301!
+/toolfastai/* https://azmediabot.online/ 301!
+/fiverr* /category/productivity-tools 301!
+/category/fiverr* /category/productivity-tools 301!
+
+# SPA Client-Side Routing fallback
+/* /index.html 200
